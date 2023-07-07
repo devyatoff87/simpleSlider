@@ -1,0 +1,48 @@
+.main-container {
+    max-width: 70vw;
+    margin: 10% auto;
+}
+
+.slider-itself {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.slider-item {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+    cursor: pointer;
+}
+
+.slider-item.active {
+    background: green;
+    color: white;
+    transition: 0.3s;
+}
+
+.slider-nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.slider-nav .left,
+.slider-nav .right {
+    padding: 20px 40px;
+    transition: 0.2s;
+    font-size: 24px;
+    border: 1px solid red;
+    color: red;
+}
+
+.slider-nav .left:hover,
+.slider-nav .right:hover {
+    background: red;
+    color: white;
+    cursor: pointer;
+}
