@@ -31,8 +31,7 @@
     padding: 10px;
 }
 
-.slider-nav .left,
-.slider-nav .right {
+.slider-nav .nav-item {
     padding: 20px 40px;
     transition: 0.2s;
     font-size: 24px;
@@ -40,8 +39,8 @@
     color: red;
 }
 
-.slider-nav .left:hover,
-.slider-nav .right:hover {
+.slider-nav .nav-item:hover,
+.slider-nav .nav-item:hover {
     background: red;
     color: white;
     cursor: pointer;
